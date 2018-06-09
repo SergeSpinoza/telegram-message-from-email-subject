@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+
+    bot.helpdesk.ch:
+        image: znakdocker1/bot.helpdesk.ch:latest
+        command: python bot.helpdesk.py
+        restart: always
+
